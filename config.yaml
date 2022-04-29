@@ -1,0 +1,26 @@
+app:
+  name: "go_oj"
+  mode: "dev"
+  port: 8080
+  start_time: "2022-04-02"
+  machine_id: 1
+log:
+  level: "debug"
+  filename: "app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "123"
+  dbname: "go_oj"
+  max_open_conns: 200
+  max_idle_conns: 50
+redis:
+  host: "localhost"
+  port: 6379
+  password: "123456"
+  db: 0
+  pool_size: 100

@@ -57,6 +57,12 @@ go get -u gorm.io/driver/mysql
 
 ```
 
+viper
+
+```go
+go get github.com/spf13/viper
+```
+
 Swagger
 
 参考文档： [https://github.com/swaggo/gin-swagger](https://gitee.com/link?target=https%3A%2F%2Fgithub.com%2Fswaggo%2Fgin-swagger) 

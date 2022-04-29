@@ -1,0 +1,23 @@
+info:
+  contact: {}
+paths:
+  /problem-list:
+    get:
+      parameters:
+      - description: 请输入当前页，默认第一页
+        in: query
+        name: page
+        type: integer
+      - description: size
+        in: query
+        name: size
+        type: integer
+      responses:
+        "200":
+          description: '{"code":"200","msg","","data":""}'
+          schema:
+            type: string
+      summary: 问题列表
+      tags:
+      - 公共方法
+swagger: "2.0"

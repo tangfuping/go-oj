@@ -1,6 +1,7 @@
 package main
 
 import (
+
 	"github.com/spf13/viper"
 	"go-oj/config"
 	"go-oj/controller"
@@ -57,4 +58,5 @@ func main() {
 	// 5 注册路由
 	r := router.SetUp()
 	_ = r.Run(":8080")
+  return
 }

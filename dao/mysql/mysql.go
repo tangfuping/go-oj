@@ -1,6 +1,9 @@
-// @author: ZYL
-// @date: 2022/4/30
-// @note: 这个文件下的函数用于初始化数据库连接、关闭数据库连接等
+
+/**
+  @author: ZYL
+  @date:
+  @note
+*/
 package mysql
 
 import (

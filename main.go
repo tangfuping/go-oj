@@ -1,7 +1,6 @@
 package main
 
 import (
-
 	"github.com/spf13/viper"
 	"go-oj/config"
 	"go-oj/controller"
@@ -54,9 +53,8 @@ func main() {
 		zap.L().Error("validator init failed ", zap.Error(err))
 		return
 	}
-
 	// 5 注册路由
 	r := router.SetUp()
-	_ = r.Run(":8080")
-  return
+	_ = r.Run(":" + viper.GetString("app.port"))
+	return
 }

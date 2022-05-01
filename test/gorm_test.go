@@ -2,7 +2,7 @@ package test
 
 import (
 	"fmt"
-	"gin-gorm-oj/models"
+	"go-oj/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"testing"
